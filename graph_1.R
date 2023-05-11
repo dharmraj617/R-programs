@@ -1,0 +1,5 @@
+x <- c(50, 20, 30, 45, 80)
+t <- c(90, 40, 60, 70 , 58)
+r <- c(60, 56, 40, 80, 120)
+y <- boxplot(x,t,r, col = "purple", main = "random data", xlab = "x", ylab = "y")
+print(y)
